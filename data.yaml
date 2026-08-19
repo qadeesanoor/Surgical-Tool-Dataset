@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['7 Metzenbaum Scissors', '8', '8 Babcock Tissue Forceps', '8 Mayo Needle Holder', '9', '9 Metzenbaum Scissors', 'Allis Tissue Forceps', 'Babcock Tissue Forceps', 'Crile Artery Forceps', 'Curved Mayo Scissors', 'DeBakey Dissector', 'Dressing Scissors', 'Gillies Toothed Dissector', 'Lahey Forceps', 'Mayo Needle Holder', 'No.3 BP Handle', 'No.4 BP Handle', 'Sponge Forceps']
+
+roboflow:
+  workspace: surgical-tools
+  project: surgical-tools-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/surgical-tools/surgical-tools-dataset/dataset/2
